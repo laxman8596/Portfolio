@@ -149,9 +149,10 @@ a {
 }
 
 .about .image {
-  background: url(" https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867761__340.jpg") center center no-repeat;
+  background: url(" https://cdn.pixabay.com/photo/2017/08/01/01/33/computer-2562651_960_720.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
+  width: 360px
 }
 
 .about .skills-content {
@@ -268,7 +269,7 @@ section {
   color: #ffb727;
   border-radius: 50%;
   padding: 15px;
-  background: #fff6e4;
+  background: white;
 }
 
 .contact .info-box h3 {
@@ -418,9 +419,3 @@ section {
 }
 
 /* contact me end */
-
-@media screen and (max-width:600px) {
-  .skills {
-    width: 50px;
-  }
-}

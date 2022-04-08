@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsTwitter, BsInstagram, BsLinkedin, BsFillShareFill } from 'react-icons/bs';
-import { AiFillSkype } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FiPhoneCall } from 'react-icons/fi';
@@ -14,7 +14,7 @@ const Contact = () => {
 				<div class="section-title">
 					<span>Contact Me</span>
 					<h2>Contact Me</h2>
-					<p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+
 				</div>
 
 				<div class="row">
@@ -27,11 +27,10 @@ const Contact = () => {
 									<BsFillShareFill style={{ fontSize: '30px', color: ' rgb(243, 105, 55)', }} />
 									<h3>Social Profiles</h3>
 									<div class="social-links">
-										<a href="#" class="twitter"><BsTwitter style={{ fontSize: '20px' }} /></a>
-										<a href="#" class="facebook"><FaFacebookF style={{ fontSize: '20px' }} /></a>
-										<a href="#" class="instagram"><BsInstagram style={{ fontSize: '20px' }} /></a>
-										<a href="#" class="google-plus"><AiFillSkype style={{ fontSize: '20px' }} /></a>
-										<a href="#" class="linkedin"><BsLinkedin style={{ fontSize: '20px' }} /></a>
+										<a href="https://twitter.com/home" target='_blank' class="twitter"><BsTwitter style={{ fontSize: '20px' }} /></a>
+										<a href="https://www.facebook.com/" target='_blank' class="facebook"><FaFacebookF style={{ fontSize: '20px' }} /></a>
+										<a href="https://github.com/" target='_blank' class="gitHub"><AiFillGithub style={{ fontSize: '20px' }} /></a>
+										<a href="https://www.linkedin.com/feed/" target='_blank' class="linkedin"><BsLinkedin style={{ fontSize: '20px' }} /></a>
 									</div>
 								</div>
 							</div>
@@ -53,7 +52,7 @@ const Contact = () => {
 
 					</div>
 
-					<div class="col-lg-6">
+					<div class="col-lg-6" >
 						<form action="forms/contact.php" method="post" role="form" class="php-email-form">
 							<div class="row">
 								<div class="col-md-6 form-group">

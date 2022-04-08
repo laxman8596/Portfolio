@@ -10,7 +10,7 @@ const Portfolio = () => {
 				<div class="section-title" style={{ marginTop: '20px' }}>
 					<span>My Portfolio</span>
 					<h2>My Portfolio</h2>
-					<p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+
 				</div>
 				<div className='row' >
 					{
