@@ -6,7 +6,7 @@ const Portfolio = () => {
 	return (
 		<>
 
-			<div className='container' >
+			<div className='container'>
 				<div class="section-title" style={{ marginTop: '20px' }}>
 					<span>My Portfolio</span>
 					<h2>My Portfolio</h2>

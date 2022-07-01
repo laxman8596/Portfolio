@@ -10,12 +10,12 @@ const Home = () => {
 
 	return (
 		<>
-			<section style={{ backgroundColor: "#F0F8FF", }} >
+			<section style={{ backgroundColor: "#CFF6CF", }} >
 				<div className='container '>
 					<div className='row' style={{ marginTop: '', marginBottom: '10rem' }}>
 						<div className='col' style={{ marginTop: '90px', marginBottom: '30px' }}>
 							<h1 className='text'>
-								<span style={{ fontWeight: 'bold', }}>I'm </span><span style={{ marginLeft: '10px', color: 'red', fontWeight: 'bold', }}>
+								<span style={{ fontWeight: 'bold', }}>I'm </span><span style={{ marginLeft: '10px', color: 'lightgray', fontWeight: 'bold', }}>
 									< Typewriter
 										onInit={(typewriter) => {
 											typewriter.typeString("Laxman.")
@@ -49,16 +49,18 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			<section style={{ backgroundColor: '#A9A9A9' }}>
-				{/* About Me */}
+			{/* About Me */}
+			<section style={{ backgroundColor: '#CFE5CF' }}>
+
 				<div className='container'>
 					<div className='row'>
 						<About />
 					</div>
 				</div>
 			</section>
-			<section style={{ backgroundColor: '#F0FFFF' }}>
-				{/* Portfolio section */}
+			{/* Portfolio section */}
+			<section style={{ backgroundColor: '#E5CFE5' }}>
+
 
 				<div className='container'>
 					<div className='row'>
@@ -82,13 +84,13 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-			<section >
-				{/* Contact Me */}
-				<div className='container'>
-					<div className='row'>
-						<Contact />
-					</div>
-				</div>
+
+			{/* Contact Me */}
+			<section style={{ backgroundColor: '#F6DEF6' }}>
+
+
+				<Contact />
+
 			</section>
 		</>
 	)
