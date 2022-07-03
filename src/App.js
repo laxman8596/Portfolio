@@ -7,9 +7,6 @@ import Contact from './Componets/Contact';
 import Portfolio from './Componets/Portfolio';
 import { FaCheck } from 'react-icons/fa';
 import { IoIosAddCircle } from 'react-icons/io';
-import State from './Componets/State';
-import Change from './Componets/Change';
-import Click from './Componets/Click';
 import Card from './Componets/Card';
 
 
