@@ -10,12 +10,12 @@ const Home = () => {
 
 	return (
 		<>
-			<section style={{ backgroundColor: "#CFF6CF", }} >
+			<section style={{ backgroundColor: "#377D71", }} >
 				<div className='container '>
 					<div className='row' style={{ marginTop: '', marginBottom: '10rem' }}>
 						<div className='col' style={{ marginTop: '90px', marginBottom: '30px' }}>
 							<h1 className='text'>
-								<span style={{ fontWeight: 'bold', }}>I'm </span><span style={{ marginLeft: '10px', color: 'lightgray', fontWeight: 'bold', }}>
+								<span style={{ fontWeight: 'bold', color: 'black' }}>I'm </span><span style={{ marginLeft: '10px', color: 'Whitesmoke', fontWeight: 'bold', }}>
 									< Typewriter
 										onInit={(typewriter) => {
 											typewriter.typeString("Laxman.")
@@ -25,7 +25,7 @@ const Home = () => {
 								</span>
 							</h1>
 							<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-								<span style={{ fontWeight: 'bold', textAlign: 'center', fontSize: '25px' }}>I Love</span><span style={{ marginLeft: '10px', fontWeight: 'bold', fontSize: '25px' }}>
+								<span style={{ fontWeight: 'bold', textAlign: 'center', fontSize: '25px', color: 'black' }}>I Love</span><span style={{ marginLeft: '10px', fontWeight: 'bold', fontSize: '25px', color: 'lightgray' }}>
 									< Typewriter
 
 										onInit={(typewriter) => {
@@ -50,7 +50,7 @@ const Home = () => {
 				</div>
 			</section>
 			{/* About Me */}
-			<section style={{ backgroundColor: '#CFE5CF' }}>
+			<section style={{ backgroundColor: '#FBC5C5' }}>
 
 				<div className='container'>
 					<div className='row'>
@@ -59,12 +59,12 @@ const Home = () => {
 				</div>
 			</section>
 			{/* Portfolio section */}
-			<section style={{ backgroundColor: '#E5CFE5' }}>
+			<section style={{ backgroundColor: '#FBA1A1' }}>
 
 
 				<div className='container'>
 					<div className='row'>
-						<div class="section-title" style={{ marginTop: '20px' }}>
+						<div class="section-title" >
 							<span> Portfolio</span>
 							<h2> Portfolio</h2>
 
@@ -86,7 +86,7 @@ const Home = () => {
 			</section>
 
 			{/* Contact Me */}
-			<section style={{ backgroundColor: '#F6DEF6' }}>
+			<section style={{ backgroundColor: '#8879B0' }}>
 
 
 				<Contact />

@@ -231,7 +231,7 @@ section {
 
 
 .contact .info-box {
-  color: #444444;
+  color: white;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 213, 212, 0.6);
   padding: 20px 0 30px 0;
@@ -248,7 +248,7 @@ section {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #777777;
+  color: white;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -269,7 +269,7 @@ section {
 .contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #687683;
+  color: black;
   line-height: 1;
   margin: 0 8px;
   transition: 0.3s;
@@ -360,7 +360,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: orangered;
+  background: black;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -369,7 +369,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgb(243, 105, 55);
+  background: White;
+  color: black;
 }
 
 @-webkit-keyframes animate-loading {

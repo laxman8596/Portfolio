@@ -11,7 +11,7 @@ const Card = ({ titlee, image, urll }) => {
 					<div class="card-body">
 						<h5 class="card-title">{titlee}</h5>
 
-						<a href={urll} target="_blank" rel="noopener noreferrer " class="btn btn-primary">Read more</a>
+						<a href={urll} target="_blank" rel="noopener noreferrer " class="btn btn-primary" style={{ backgroundColor: 'black' }}>Read more</a>
 					</div>
 				</div>
 			</div>

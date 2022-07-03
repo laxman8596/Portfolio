@@ -8,7 +8,7 @@ import { FiPhoneCall } from 'react-icons/fi';
 const Contact = () => {
 	return (
 
-		<section id="contact" class="contact">
+		<section id="contact" class="contact" style={{ backgroundColor: '#8879B0' }}>
 			<div class="container">
 
 				<div class="section-title">
