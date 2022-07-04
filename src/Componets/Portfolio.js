@@ -5,7 +5,7 @@ import Data from './ApiData'
 const Portfolio = () => {
 	return (
 		<>
-			<section style={{ backgroundColor: '#FBA1A1' }}>
+			<section style={{ backgroundColor: '#27496D' }}>
 				<div className='container'>
 					<div class="section-title" >
 						<span>My Portfolio</span>

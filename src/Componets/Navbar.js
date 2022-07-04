@@ -15,15 +15,14 @@ const Navbar = () => {
 							<NavLink to="/">
 								<li class="nav-item nav-link " style={{ margin: '0 10px' }}>Home</li>
 							</NavLink>
-							<NavLink to="/about">
-								<li class="nav-item nav-link" style={{ margin: '0 10px' }}>About</li>
-							</NavLink>
 							<NavLink to="/Portfolio">
 								<li class="nav-item nav-link" style={{ margin: '0 10px' }}>Portfolio</li>
 							</NavLink>
-							<NavLink to="/contact">
-								<li class="nav-item nav-link" style={{ margin: '0 10px' }}>Contact</li>
+							<NavLink to="/about">
+								<li class="nav-item nav-link" style={{ margin: '0 10px' }}>About</li>
 							</NavLink>
+
+
 
 
 						</ul>
