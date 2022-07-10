@@ -11,7 +11,7 @@ const Data = [
 	{
 		id: 2,
 		titel: 'Gallarey App',
-		images: './images/gallarey-app.jpg',
+		images: './images/gallrey-app.jpg',
 		url: 'https://gallarey-app.herokuapp.com/'
 	},
 
