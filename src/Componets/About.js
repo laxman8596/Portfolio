@@ -4,7 +4,7 @@ import Portfolio from './Portfolio';
 const About = () => {
 	return (
 		<>
-			<section id='about' className='about' style={{ backgroundColor: '#0C7B96' }}>
+			<section id='about' className='about' style={{ backgroundColor: '#0C7B93' }}>
 				<div className='container'>
 					<div class="section-title">
 						<span>About Me</span>
