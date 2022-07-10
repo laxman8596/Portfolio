@@ -1,19 +1,5 @@
 import React from 'react'
 
-
-
-
-const Cars = [
-	{
-		'name': 'bmw',
-		'modal': '2001',
-		'price': '40lks',
-		'img': 'https://stimg.cardekho.com/images/carexteriorimages/630x420/BMW/X1/7625/1583398555726/front-left-side-47.jpg?impolicy=resize&imwidth=480',
-	},
-	{
-		'name': ''
-	}
-]
 function Card() {
 	return (
 		<>

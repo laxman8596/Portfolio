@@ -1,7 +1,6 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 import Card from './Card';
-
 import About from './About';
 import Data from './ApiData';
 
