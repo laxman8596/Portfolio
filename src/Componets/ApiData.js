@@ -5,7 +5,7 @@ const Data = [
 	{
 		id: 1,
 		titel: 'My Resturant',
-		images: '../images/food-app.jpg',
+		images: '../images/Food-App.jpg',
 		url: 'https://food---app.herokuapp.com/'
 	},
 	{
@@ -20,7 +20,7 @@ const Data = [
 	{
 		id: 3,
 		titel: 'Weather App',
-		images: './images/Weather-app.jpg',
+		images: './images/Weather-App.jpg',
 		url: 'https://weather--app9.herokuapp.com/'
 	},
 ]
