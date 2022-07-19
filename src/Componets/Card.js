@@ -11,7 +11,7 @@ const Card = ({ titlee, image, urll }) => {
 					<div class="card-body">
 						<h5 class="card-title" style={{ fontWeight: 'bold' }}>{titlee}</h5>
 
-						<a href={urll} target="_blank" rel="noopener noreferrer " class="btn btn-dark btn-sm" style={{ width: '100px', height: '35px', marginTop: '4px', paddingTop: '7px' }} >Visit More</a>
+						<a href={urll} target="_blank" rel="noopener noreferrer " class="btn btn-dark btn-sm" style={{ width: '100px', height: '35px', marginTop: '4px', paddingTop: '7px' }} >Visit Site</a>
 					</div>
 				</div>
 			</div>
